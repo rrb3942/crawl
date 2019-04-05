@@ -2352,8 +2352,10 @@ static const facet_def _demon_facets[] =
       { -33, 0, 0 } },
     { 2, { MUT_ROT_IMMUNITY, MUT_FOUL_STENCH, MUT_FOUL_STENCH },
       { -33, 0, 0 } },
-    { 2, { MUT_MANA_SHIELD, MUT_MANA_REGENERATION, MUT_MANA_LINK },
+    { 2, { MUT_MANA_SHIELD, MUT_MANA_REGENERATION, MUT_HIGH_MAGIC },
       { -33, 0, 0 } },
+    { 2, { MUT_REGENERATION, MUT_FAST, MUT_REGENERATION },
+      { -66, -50, -33 } },
     // Tier 3 facets
     { 3, { MUT_HEAT_RESISTANCE, MUT_FLAME_CLOUD_IMMUNITY, MUT_HURL_DAMNATION },
       { 50, 50, 50 } },
