@@ -109,7 +109,7 @@ public:
 
         if ((you.can_potion_heal() || !is_potion) && !ddoor || player_rotted())
         {
-            int amount = 5 + random2(7);
+            int amount = (you.hp_max/4) + random2(you.hp_max/4);
             if (is_potion && !you.can_potion_heal() && player_rotted())
             {
                 // Treat the effectiveness of rot removal as if the player
@@ -200,7 +200,7 @@ public:
             return false;
         }
 
-        int amount = 10 + random2avg(28, 3);
+        int amount = (you.hp_max/2) + random2avg((you.hp_max/3)*2, 3);
         if (is_potion)
             amount = you.scale_potion_healing(amount);
         // Pay for rot right off the top.
