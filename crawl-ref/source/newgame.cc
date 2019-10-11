@@ -1127,7 +1127,7 @@ static job_group jobs_order[] =
     {
         "Warrior",
         coord_def(0, 0), 20,
-        { JOB_FIGHTER, JOB_GLADIATOR, JOB_MONK, JOB_HUNTER, JOB_ASSASSIN }
+        { JOB_KNIGHT, JOB_FIGHTER, JOB_GLADIATOR, JOB_MONK, JOB_HUNTER, JOB_ASSASSIN }
     },
     {
         "Adventurer",

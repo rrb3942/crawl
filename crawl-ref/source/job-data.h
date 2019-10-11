@@ -142,6 +142,17 @@ static const map<job_type, job_def> job_data =
       { SK_WEAPON, 2 } },
 } },
 
+{ JOB_KNIGHT, {
+    "Kn", "Knight",
+    8, 0, 4,
+    { SP_DEEP_DWARF, SP_HILL_ORC, SP_TROLL, SP_MINOTAUR, SP_GARGOYLE,
+      SP_CENTAUR, },
+    { "scale mail", "cloak", "pair of gloves", "pair of boots", "helmet", "potion of might" },
+    WCHOICE_GOOD,
+    { { SK_FIGHTING, 3 }, { SK_DODGING, 1 }, { SK_ARMOUR, 4 },
+      { SK_WEAPON, 3 } },
+} },
+
 { JOB_FIRE_ELEMENTALIST, {
     "FE", "Fire Elementalist",
     0, 7, 5,
