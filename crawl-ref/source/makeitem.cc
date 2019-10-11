@@ -2149,12 +2149,7 @@ static jewellery_type _get_raw_random_ring_type()
 
 jewellery_type get_random_ring_type()
 {
-    const jewellery_type j = _get_raw_random_ring_type();
-    // Adjusted distribution here. - bwr
-    if (j == RING_SLAYING && !one_chance_in(3))
-        return _get_raw_random_ring_type();
-
-    return j;
+    return _get_raw_random_ring_type();
 }
 
 // Sets item appearance to match brands, if any.
