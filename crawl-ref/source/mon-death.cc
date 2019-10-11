@@ -510,8 +510,8 @@ static void _create_monster_hide(const item_def &corpse, bool silent)
 
 static void _maybe_drop_monster_hide(const item_def &corpse, bool silent)
 {
-    //if (mons_class_leaves_hide(corpse.mon_type) && !one_chance_in(3))
-    _create_monster_hide(corpse, silent);
+    if (mons_class_leaves_hide(corpse.mon_type))
+        _create_monster_hide(corpse, silent);
 }
 
 /**
