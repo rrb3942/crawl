@@ -2144,6 +2144,10 @@ static jewellery_type _get_raw_random_ring_type()
     }
     while (ring == RING_TELEPORTATION && crawl_state.game_is_sprint()
            || item_type_removed(OBJ_JEWELLERY, ring));
+
+   while (ring == RING_ICE || ring == RING_FIRE) {
+	ring = (jewellery_type)(random_range(RING_FIRST_RING, NUM_RINGS - 1));
+   }
     return ring;
 }
 
