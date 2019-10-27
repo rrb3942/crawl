@@ -1194,7 +1194,7 @@ wand of enslavement
 
 A magical device which causes slavish obedience in a creature.
 %%%%
-wand of flame
+wand of fireball
 
 A magical device which throws little puffs of flame.
 %%%%

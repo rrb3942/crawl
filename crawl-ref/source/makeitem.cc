@@ -1256,7 +1256,7 @@ static monster_type _choose_random_monster_corpse()
 static int _random_wand_subtype()
 {
     // total weight 75 [arbitrary]
-    return random_choose_weighted(10, WAND_FLAME,
+    return random_choose_weighted(10, WAND_FIREBALL,
                                   10, WAND_ICEBLAST,
                                   8, WAND_RANDOM_EFFECTS,
                                   8, WAND_POLYMORPH,
@@ -1848,7 +1848,7 @@ static void _setup_fallback_randart(const int unrand_id,
  *
  * Various parameters determine whether the item can be an artifact, set the
  * item class (ex. weapon, wand), set the item subtype (ex.
- * hand axe, wand of flame), set the item ego (ex. of flaming, of running), set
+ * hand axe, wand of fireball), set the item ego (ex. of flaming, of running), set
  * the rough power level of the item, and set the agent of the item (which
  * affects what artefacts can be generated, and also non-artefact items if the
  * agent is Xom). Item class, Item type, and Item ego can also be randomly

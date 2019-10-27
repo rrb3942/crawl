@@ -832,7 +832,7 @@ static bool _advise_use_wand()
         // Can it be used to fight?
         switch (obj.sub_type)
         {
-        case WAND_FLAME:
+        case WAND_FIREBALL:
         case WAND_PARALYSIS:
         case WAND_ICEBLAST:
         case WAND_ENSLAVEMENT:

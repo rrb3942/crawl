@@ -3179,7 +3179,7 @@ wand of enslavement
 
 <Enslavement spell>
 %%%%
-wand of flame
+wand of fireball
 
 <wand>
 %%%%

@@ -687,7 +687,7 @@ enum vorpal_damage_type
 
 enum wand_type
 {
-    WAND_FLAME,
+    WAND_FIREBALL,
 #if TAG_MAJOR_VERSION == 34
     WAND_FROST_REMOVED,
     WAND_SLOWING_REMOVED,

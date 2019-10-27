@@ -4293,7 +4293,7 @@ DEPTH:  D:3-9
 ORIENT: float
 KMONS:  p = plant
 KMONS:  1 = electric eel
-ITEM:   wand of flame ident:type
+ITEM:   wand of fireball ident:type
 KFEAT:  1p = W
 NSUBST: 1 = 2:1 / 1WW
 SUBST:  - : D., D=WWWWp, t = ttTU
@@ -4318,7 +4318,7 @@ TAGS:   no_monster_gen no_trap_gen no_tele_into no_pool_fixup
 DEPTH:  D:3-13
 ORIENT: float
 KMASK:  LM = no_item_gen
-ITEM:   wand of flame
+ITEM:   wand of fireball
 ITEM:   wand of iceblast / wand of acid
 ITEM:   wand of random effects / wand of disintegration / wand of paralysis \
         / wand of enslavement / wand of polymorph w:5

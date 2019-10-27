@@ -699,7 +699,7 @@ static int _acquirement_wand_subtype(bool /*divine*/, int & /*quantity*/)
         { WAND_POLYMORPH,       5 },
         { WAND_DIGGING,         5 },
         { WAND_RANDOM_EFFECTS,  2 },
-        { WAND_FLAME,           1 },
+        { WAND_FIREBALL,           1 },
     };
 
     // Unknown wands get a huge weight bonus.

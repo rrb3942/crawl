@@ -1545,7 +1545,7 @@ int wand_charge_value(int type)
     default:
         return 24;
 
-    case WAND_FLAME:
+    case WAND_FIREBALL:
     case WAND_RANDOM_EFFECTS:
         return 32;
     }
@@ -1590,7 +1590,8 @@ bool is_offensive_wand(const item_def& item)
     case WAND_CLOUDS:
     case WAND_ICEBLAST:
     case WAND_ENSLAVEMENT:
-    case WAND_FLAME:
+    case WAND_FIREBALL:
+    case WAND_ICEBLAST:
     case WAND_PARALYSIS:
     case WAND_POLYMORPH:
     case WAND_ACID:

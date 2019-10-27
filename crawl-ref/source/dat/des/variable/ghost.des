@@ -1552,10 +1552,10 @@ MONS:   kobold, big kobold, kobold demonologist
 KMONS:  D = kobold ; dart ego:curare | dart ego:poisoned . dagger
 KMONS:  E = big kobold ; dart ego:curare | \
                 dart ego:poisoned w:5 . dagger | short sword | whip
-KMONS:  F = kobold ; wand of flame | wand of acid | wand of polymorph | \
+KMONS:  F = kobold ; wand of fireball | wand of acid | wand of polymorph | \
                 wand of enslavement | wand of paralysis | \
                 wand of disintegration . dagger
-KMONS:  H = big kobold ; wand of flame | wand of acid | wand of polymorph | \
+KMONS:  H = big kobold ; wand of fireball | wand of acid | wand of polymorph | \
                 wand of enslavement | wand of paralysis | \
                 wand of disintegration . dagger | short sword | whip
 KMONS:  J = kobold ; dagger ego:distortion
@@ -1675,7 +1675,7 @@ ITEM:    any jewellery, any jewellery good_item, any jewellery randart
 KMONS:   p = plant
 KMONS:   O = player ghost
 MONS:    gnoll, gnoll shaman, gnoll sergeant, grum band
-KMONS:   D = gnoll ; wand of flame | wand of acid | wand of polymorph | \
+KMONS:   D = gnoll ; wand of fireball | wand of acid | wand of polymorph | \
                 wand of enslavement | wand of paralysis | \
                 wand of disintegration \
             . spear w:20 | halberd | club | whip | flail | nothing w:15

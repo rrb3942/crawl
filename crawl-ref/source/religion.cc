@@ -1223,7 +1223,7 @@ static bool _seen_wand(int wand)
 static int _pakellas_low_wand()
 {
     static const vector<int> low_wands = {
-        WAND_FLAME,
+        WAND_FIREBALL,
         WAND_POLYMORPH,
         WAND_RANDOM_EFFECTS,
     };

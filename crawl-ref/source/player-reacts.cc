@@ -269,7 +269,7 @@ static void _decrement_paralysis(int delay)
  */
 static void _maybe_melt_armour()
 {
-    // We have to do the messaging here, because a simple wand of flame will
+    // We have to do the messaging here, because a simple wand of fireball will
     // call _maybe_melt_player_enchantments twice. It also avoids duplicate
     // messages when melting because of several heat sources.
     if (you.props.exists(MELT_ARMOUR_KEY))
