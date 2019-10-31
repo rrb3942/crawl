@@ -2521,7 +2521,13 @@ _schedule_ds_mutations(vector<mutation_type> muts)
 
     vector<player::demon_trait> out;
 
-    for (int level = 2; level <= 18; ++level)
+    int last_level = muts.size() + 2;
+
+    if (last_level > 27) {
+	last_level = 27;
+    }
+
+    for (int level = 2; level <= last_level; ++level)
         slots_left.push_back(level);
 
     while (!muts_left.empty())
