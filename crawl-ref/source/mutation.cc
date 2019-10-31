@@ -2352,13 +2352,24 @@ static const facet_def _demon_facets[] =
       { -33, 0, 0 } },
     { 2, { MUT_ROT_IMMUNITY, MUT_FOUL_STENCH, MUT_FOUL_STENCH },
       { -33, 0, 0 } },
+	//Enchanced mana
     { 2, { MUT_MANA_SHIELD, MUT_MANA_REGENERATION, MUT_HIGH_MAGIC },
       { -33, 0, 0 } },
+	//Accelerated
     { 2, { MUT_REGENERATION, MUT_FAST, MUT_REGENERATION },
       { -66, -50, -33 } },
     // Tier 3 facets
-    { 3, { MUT_HEAT_RESISTANCE, MUT_FLAME_CLOUD_IMMUNITY, MUT_HURL_DAMNATION },
+	//Stability 
+    { 3, { MUT_SUSTAIN_ATTRIBUTES, MUT_MUTATION_RESISTANCE, MUT_CLARITY },
       { 50, 50, 50 } },
+	//Anti-Magic
+    { 3, { MUT_MAGIC_RESISTANCE, MUT_MAGIC_RESISTANCE, MUT_CLARITY },
+      { 50, 50, 50 } },
+	//Necro
+    { 3, { MUT_NECRO_ENHANCER, MUT_NECRO_ENHANCER, MUT_STOCHASTIC_TORMENT_RESISTANCE },
+      { 50, 50, 50 } },
+   // { 3, { MUT_HEAT_RESISTANCE, MUT_FLAME_CLOUD_IMMUNITY, MUT_HURL_DAMNATION },
+   //   { 50, 50, 50 } },
     { 3, { MUT_COLD_RESISTANCE, MUT_FREEZING_CLOUD_IMMUNITY, MUT_PASSIVE_FREEZE },
       { 50, 50, 50 } },
     { 3, { MUT_ROBUST, MUT_ROBUST, MUT_ROBUST },
